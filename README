@@ -1,0 +1,51 @@
+# RAG Project
+
+This project implements a Retrieval-Augmented Generation (RAG) system using Python.
+
+## Features
+
+- Document retrieval from a knowledge base
+- Integration with language models for answer generation
+- Modular and extensible codebase
+
+## Setup
+
+1. Clone the repository:
+    ```
+    git clone https://github.com/leejlaa/rag-project.git
+    cd rag-project
+    ```
+
+2. Create and activate a virtual environment:
+    ```
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+3. Install dependencies:
+    ```
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Prepare your data and configure the settings.
+2. Run the main script:
+    ```
+    python main.py
+    ```
+
+## Project Structure
+
+- `main.py` - Entry point for the application
+- `retriever/` - Document retrieval logic
+- `generator/` - Language model integration
+- `data/` - Sample data and knowledge base
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
