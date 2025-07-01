@@ -37,10 +37,8 @@ This project implements a Retrieval-Augmented Generation (RAG) system using Pyth
 
 ## Project Structure
 
-- `main.py` - Entry point for the application
-- `retriever/` - Document retrieval logic
-- `generator/` - Language model integration
-- `data/` - Sample data and knowledge base
+- `main.py` - Entry point for the application and creating the vector database
+- `query_data.py` - Caling the class with a text give a result
 
 ## Contributing
 
